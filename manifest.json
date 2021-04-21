@@ -1,0 +1,13 @@
+{
+  "name": "Bookmarking Chrome Extension",
+  "version": "1.0",
+  "description": "Bookmark opened tabs for later use",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "interface.html"
+  },
+  "manifest_version": 3
+}
