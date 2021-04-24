@@ -1,13 +1,19 @@
 {
-  "name": "Bookmarking Chrome Extension",
-  "version": "1.0",
-  "description": "Bookmark opened tabs for later use",
-  "background": {
+    "name": "Bookmarking Chrome Extension",
+    "version": "1.0",
+    "description": "Bookmark opened tabs for later use",
+    "background": {
     "scripts": ["background.js"],
-    "persistent": false
-  },
-  "page_action": {
-    "default_popup": "interface.html"
-  },
-  "manifest_version": 3
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "interface.html"
+    },
+    "manifest_version": 3,
+    "icons": { 
+        "16": "bookmark_icon16.png",
+        "32": "bookmark_icon32.png",
+        "48": "bookmark_icon48.png",
+        "128": "bookmark_icon128.png" 
+    },
 }
