@@ -1,3 +1,1 @@
-//chrome.runtime.onInstalled.addListener(function() {
-  console.log("Extension installed");
-//});
+console.log("Extension installed");

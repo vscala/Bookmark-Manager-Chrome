@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "description": "Bookmark opened tabs for later use",
     "manifest_version": 3,
-    "permissions": ["storage"],
+    "permissions": ["storage", "tabs"],
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
