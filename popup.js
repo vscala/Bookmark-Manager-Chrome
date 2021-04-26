@@ -85,7 +85,21 @@ document.getElementById("btnClearBookmarks").onclick = function () {
 function updateBookmarks() {
     console.log("Current bookmarks: " + bookmarks);
     localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
+    updateTable();
+}
+
+function updateTable() {
+    const table = document.getElementById("tableBookmarks");
+    table.innerHTML = "";
+
+    let i;
+    for (i = 0; i < bookmarks.length; i++) {
+        const row = table.insertRow(i);
+        const cell = row.insertCell(0);
+        cell.innerHTML = bookmarks[i];
+    }
 }
 
 // Verifying popup loaded successfully
+updateTable()
 console.log("popup loaded successfully!")

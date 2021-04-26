@@ -7,11 +7,15 @@
   <body>
     <h3> Bookmarking Manager Extension </h3>
     <button id="btnAddManual"> Add page by URL </button>
-    <label>
-      URL: <input type="text" id="inputURL">
-    </label> <br>
+    <h4> URL: </h4>
+    <label for="inputURL"></label><input type="text" id="inputURL">
     <button id="btnAddSelected"> Add selected pages</button>
     <button id="btnLoadPages"> Load saved pages </button>
+    <h4> Table: </h4>
+    <div style="height:100px;overflow:auto;">
+      <table id="tableBookmarks">
+      </table>
+    </div>
     <button id="btnModifyBookmark"> Modify bookmark </button>
     <button id="btnDeleteBookmark"> Delete bookmark </button>
     <button id="btnClearBookmarks"> Clear bookmarks </button>
