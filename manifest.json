@@ -1,5 +1,5 @@
 {
-    "name": "Bookmarking Chrome Extension",
+    "name": "Tuck",
     "version": "0.1.0",
     "description": "Bookmark opened tabs for later use",
     "manifest_version": 3,
