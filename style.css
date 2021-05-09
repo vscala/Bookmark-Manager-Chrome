@@ -1,9 +1,11 @@
 /* Input/buttons */
 input {
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 8px 20px;
+    margin: 2px 0;
     box-sizing: border-box;
+    background-color: #f2f2f2;
+    border: none;
 }
 
 button {
@@ -11,7 +13,7 @@ button {
     display: inline-block;
     border: #111111;
     padding: 6px 3px;
-    background: #eeeeee;
+    background: #FFFFFF;
     color: #000000;
     font-size: 1rem;
     width: 100%;
@@ -19,7 +21,7 @@ button {
 
 button:hover,
 button:focus {
-    background: #aaaaaa;
+    background: #eeeeee;
 }
 /* End input/buttons */
 
@@ -27,6 +29,7 @@ button:focus {
 table {
     width: 100%;
     position: center;
+    background-color: #f2f2f2;
 }
 
 th {
@@ -43,12 +46,12 @@ th {
 
 /* Body */
 body {
-    min-width: 480px;
+    min-width: 360px;
     max-width: 100%;
     position: relative;
     vertical-align:middle;
     margin: auto;
-    border: 3px solid #000000;
+    border: 0px solid #000000;
     padding: 10px;
 }
 /* End body */
@@ -64,3 +67,18 @@ h4 {
     text-align: center;
 }
 /* End headers */
+/*CSS? I think? I dont know*/
+.gfg{
+    margin: 3%;
+    position: relative;  
+    right: 20px;
+    top: -10px;
+}
+.txt{
+    position: absolute;  
+    top: -23px;
+    right: 180px;
+}
+.tte{
+    position: relative;
+}
